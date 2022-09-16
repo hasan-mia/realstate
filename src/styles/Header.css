@@ -15,9 +15,8 @@ header{
 }
 
 .menu {
-    padding: 8px;
+    margin: 8px;
     border-bottom: 1px solid #e1d9d9;
-    margin-bottom: 15px;
     z-index: 9;
 }
 
@@ -49,6 +48,11 @@ header{
 .menu ul li a{
     text-decoration: none;
     color:rgb(28, 26, 26);
+}
+
+.user li:hover {
+    background-color: #7745FF;
+    color: #fdf8f8
 }
 
 

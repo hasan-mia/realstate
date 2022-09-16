@@ -1,12 +1,13 @@
 import Header from "./components/Header";
 import Product from "./components/Product";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <main className="min-h-screen">
+    <>
       <Header></Header>
-      <Product></Product>
-    </main>
+      <Home/>
+    </>
   );
 }
 

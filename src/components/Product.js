@@ -13,7 +13,7 @@ const Product = () => {
 
 
     return (
-        <section id="product">
+        <section className='py-10'>
             <div class="container">
                 <div class="row">
                     {/* <!-- end title --> */}

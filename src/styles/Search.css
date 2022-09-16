@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    background: #fff;
+    padding: 5px;
+    justify-content: center;
+}
+input[type="text"][placeholder], input[type="date"], input[type="price"], select.form-control, input[type="button"] {
+    color: #000;
+    background: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+}
