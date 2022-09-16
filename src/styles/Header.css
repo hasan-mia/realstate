@@ -1,63 +1,85 @@
-.logo img {
+.logo img{
     width: 55px;
     height: 55px;
     padding-top: 15px;
     display: none;
 }
 
-#checkbox-id {
+#checkbox-id{
     display: none;
 }
 
-header {
+header{
     width: 100%;
-    background-color: #fdfdfd;
+    background-color: #f5f4f4;    
 }
-.menu ul {
+
+.menu {
+    padding: 8px;
+    border-bottom: 1px solid #e1d9d9;
+    margin-bottom: 15px;
+    z-index: 9;
+}
+
+.menu ul{
     list-style-type: none;
-    display: flex;
+    display: flex;;
     margin: 0;
     justify-content: center;
 }
-.menu ul li {
-    padding: 15px;
+
+.menu ul li{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
 }
-.menu ul li:hover {
-    background-color: #2b2b2b;
+
+.menu ul li:hover{
+    background-color: rgb(209, 209, 209);
     transition: all 0.4s ease-in-out;
+    border-radius: 5px;
 
 }
-.menu ul li:hover a {
-    color: #0000;
+
+.menu ul li:hover a{
+    color: #7745FF
 }
-.menu ul li a {
+.menu ul li a{
     text-decoration: none;
-    color: #2b2b2b;
+    color:rgb(28, 26, 26);
 }
 
-@media screen and (max-width:768px) {
-    .menu {
+
+@media screen and (max-width:768px){
+    .menu{
         position: absolute;
         margin-left: -100%;
         width: 100%;
         transition: all .5s ease-in-out;
     }
-    img {
+
+   .logo img{
         display: block;
-        padding: 13px;
+        padding:13px;
     }
-    img:hover {
+
+    img:hover{
         cursor: pointer;
     }
-    .menu ul {
-        flex-direction: column;
-        background-color: #93232E;
-        padding: 10px;
 
-    }
-    #checkbox-id:checked~.menu {
-        margin-left: 0;
-        transition: all 0.5s ease-in-out;
+  .menu ul{
+      flex-direction: column;
+      background-color: #fdf8f8;    
+      padding: 10px;
+     
+  }
+  
 
-    }
+  #checkbox-id:checked ~ .menu{
+      margin-left:0;
+      transition: all 0.5s ease-in-out;
+
+  }
 }

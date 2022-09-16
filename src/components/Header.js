@@ -1,4 +1,5 @@
 import React from 'react';
+import { BiHome } from 'react-icons/bi';
 import menuIcon from '../assets/menu.png';
 import '../styles/Header.css';
 
@@ -8,12 +9,22 @@ const Header = () => {
             <input type="checkbox" id="checkbox-id" />
             <label for="checkbox-id" className='logo'>
                 <img src={menuIcon} /></label>
-            <nav class="menu">
+            <nav class="menu flex between bg-white">
                 <ul>
-                    <li><a href="#">Ana Səhifə</a></li>
-                    <li><a href="#">Haqqımda</a></li>
-                    <li><a href="#">Qalereya</a></li>
-                    <li><a href="#">Əlaqə</a></li>
+                 <BiHome></BiHome>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Manage Property</a></li>
+                    <li><a href="#">Resource</a></li>
+
+                </ul>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
                 </ul>
             </nav>
 
