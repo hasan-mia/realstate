@@ -14,24 +14,24 @@ const Product = () => {
 
     return (
         <section className='py-10'>
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     {/* <!-- end title --> */}
-                    <div class="col-3">
+                    <div className="col-3">
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house1} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>7x3 m<sup>2</sup></span></p>
@@ -39,19 +39,19 @@ const Product = () => {
                             </div>
                         </article>
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house2} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>6x5 m<sup>2</sup></span></p>
@@ -59,19 +59,19 @@ const Product = () => {
                             </div>
                         </article>
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house3} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>5x2 m<sup>2</sup></span></p>
@@ -79,19 +79,19 @@ const Product = () => {
                             </div>
                         </article>
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house4} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>5x2 m<sup>2</sup></span></p>
@@ -99,19 +99,19 @@ const Product = () => {
                             </div>
                         </article>
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house5} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>5x2 m<sup>2</sup></span></p>
@@ -119,19 +119,19 @@ const Product = () => {
                             </div>
                         </article>
                         <article className='product bg-white border-r'>
-                            <div class="thumbnail">
+                            <div className="thumbnail">
                                 <img src={house6} alt="product" />
                             </div>
-                            <div class="product-content">
-                                <div class="product-price">
+                            <div className="product-content">
+                                <div className="product-price">
                                     <p><span className='price'>$5,632</span>/month</p>
                                     <FaRegHeart className='border-round'/>
                                 </div>
-                                <div class="product-details">
+                                <div className="product-details">
                                     <h3>Palm Harbour</h3>
                                     <p>2699 green valley, Highland Late ft</p>
                                 </div>
-                                <div class="product-object">
+                                <div className="product-object">
                                     <p className='flex'><BiBed className='font-md'/><span>Bed</span></p>
                                     <p className='flex'><FaShower className='font-md'/><span>Bedroom</span></p>
                                     <p className='flex'><GiLaurelCrown className='font-md'/><span>5x2 m<sup>2</sup></span></p>

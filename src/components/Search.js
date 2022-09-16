@@ -21,7 +21,7 @@ const Search = () => {
                         </div>
                         <div className="form">
                             <label htmlFor="location" className='pl-10 color-soft'>Property Type</label>
-                            <select class="form-control">
+                            <select className="form-control">
                                 <option selected>House</option>
                                 <option>House2</option>
                                 <option>House3</option>

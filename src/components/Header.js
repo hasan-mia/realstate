@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
                 </div>
             </label>
-            <nav class="menu flex between bg-white">
+            <nav className="menu flex between bg-white">
                 <div className='flex font-lg font-bold hide-m'>
                  <BiMailSend className='color-primary font-xl'/> <span>Estatery</span>
                 </div>
