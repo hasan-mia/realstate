@@ -27,9 +27,9 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="contact">
-                            <p>Emal: contact@idea.com</p>
+                            <p>Emal: contact@estatery.com</p>
                             <p>Phone: +109383972</p>
-                            <p>Web: www.idea.com</p>
+                            <p>Web: www.estatery.com</p>
                         </div>
                         <div className="flex">
                             <li className='px-5'> <a href="#" className='color-white'>About us</a> </li>
